@@ -1,29 +1,46 @@
+/* index.css */
+
 body {
-    font-family: "Roboto", sans-serif;
-}
-.libro {
-    background-color: white;
-    margin: 20px auto;
-    width: 80%;
+    background-color: #f7f2e7; /* Color de fondo suave para un aspecto de papel antiguo */
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Color oscuro para el texto, mejorando la legibilidad */
+    margin: 0;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.libro {
+    background-color: #ffffff; /* Fondo blanco para los bloques de libros */
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    max-width: 600px; /* Ancho máximo para asegurar la legibilidad en dispositivos grandes */
+    border-radius: 8px; /* Bordes redondeados para suavizar el diseño */
 }
 
 .libro h1 {
-    color: #333;
+    color: #d67d3e; /* Color destacado para los títulos */
+    margin-bottom: 15px; /* Espaciado debajo del título */
 }
 
 .libro img {
-    width: 100%;
-    max-width: 200px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px; /* Centra la imagen y añade espacio debajo */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 4px; /* Bordes ligeramente redondeados para las imágenes */
 }
 
-.libro p {
-    color: #666;
+p {
+    line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
+    margin-bottom: 10px; /* Espaciado entre párrafos */
 }
 
-.libro p strong {
-    color: #000;
+p strong {
+    color: #555; /* Color ligeramente más oscuro para los términos importantes */
+}
+
+@media (max-width: 768px) {
+    .libro {
+        margin: 20px 10px; /* Margen reducido para pantallas más pequeñas */
+    }
 }
