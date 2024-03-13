@@ -18,15 +18,15 @@ body {
 }
 
 .libro h1 {
-    color: #d67d3e; /* Color destacado para los títulos */
-    margin-bottom: 15px; /* Espaciado debajo del título */
+    color: #d67d3e; 
+    margin-bottom: 15px; 
 }
 
 .libro img {
     display: block;
-    margin: 0 auto 20px; /* Centra la imagen y añade espacio debajo */
-    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto 20px; 
+    max-width: 100%; 
+    height: auto; 
     border-radius: 4px; 
 }
 
