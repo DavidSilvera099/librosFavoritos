@@ -9,12 +9,12 @@ body {
 }
 
 .libro {
-    background-color: #ffffff; /* Fondo blanco para los bloques de libros */
+    background-color: #ffffff; 
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
-    max-width: 600px; /* Ancho máximo para asegurar la legibilidad en dispositivos grandes */
-    border-radius: 8px; /* Bordes redondeados para suavizar el diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    border-radius: 8px; 
 }
 
 .libro h1 {
