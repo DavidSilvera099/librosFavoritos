@@ -27,20 +27,20 @@ body {
     margin: 0 auto 20px; /* Centra la imagen y añade espacio debajo */
     max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 4px; /* Bordes ligeramente redondeados para las imágenes */
+    border-radius: 4px; 
 }
 
 p {
-    line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
-    margin-bottom: 10px; /* Espaciado entre párrafos */
+    line-height: 1.6; 
+    margin-bottom: 10px; 
 }
 
 p strong {
-    color: #555; /* Color ligeramente más oscuro para los términos importantes */
+    color: #555; 
 }
 
 @media (max-width: 768px) {
     .libro {
-        margin: 20px 10px; /* Margen reducido para pantallas más pequeñas */
+        margin: 20px 10px; 
     }
 }
