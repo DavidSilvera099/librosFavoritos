@@ -5,7 +5,10 @@ body {
     margin: 0;
     padding: 20px;
 }
-
+.Title-libfav {
+    font-size: 30px;
+    color: #d67d3e;
+}
 .libro {
     background-color: #ffffff; 
     margin: 20px auto;
