@@ -1,3 +1,29 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+.libro {
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.libro h1 {
+    color: #333;
+}
+
+.libro img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.libro p {
+    color: #666;
+}
+
+.libro p strong {
+    color: #000;
+}
