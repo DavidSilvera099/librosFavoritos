@@ -8,6 +8,9 @@ body {
 .Title-libfav {
     font-size: 30px;
     color: #d67d3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .libro {
     background-color: #ffffff; 
