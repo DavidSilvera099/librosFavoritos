@@ -1,9 +1,7 @@
-/* index.css */
-
 body {
-    background-color: #f7f2e7; /* Color de fondo suave para un aspecto de papel antiguo */
+    background-color: #f7f2e7; 
     font-family: 'Roboto', sans-serif;
-    color: #333; /* Color oscuro para el texto, mejorando la legibilidad */
+    color: #333;
     margin: 0;
     padding: 20px;
 }
